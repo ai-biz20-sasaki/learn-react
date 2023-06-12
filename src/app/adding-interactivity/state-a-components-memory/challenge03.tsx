@@ -1,27 +1,27 @@
 "use client"
-function Button({ onClick, children }) {
-  return (
-    <button onClick={(e) => {
-      {console.log(e)}
-      e.stopPropagation();
-      onClick();
-    }}>
-      {children}
-    </button>
-  );
-}
+import { useState } from 'react';
 
-export default function Toolbar() {
-  return (
-    <div className="Toolbar" onClick={() => {
-      alert('You clicked on the toolbar!');
-    }}>
-      <Button onClick={() => alert('Playing!')}>
-        Play Movie
-      </Button>
-      <Button onClick={() => alert('Uploading!')}>
-        Upload Image
-      </Button>
-    </div>
-  );
+export default function FeedbackForm() {
+  const [isSent, setIsSent] = useState(false);
+  const [message, setMessage] = useState('');
+
+  if (isSent) {
+    return <h1>Thank you!</h1>;
+  } else {
+    return (
+      <form onSubmit={e => {
+        e.preventDefault();
+        alert(`Sending: "${message}"`);
+        setIsSent(true);
+      }}>
+        <textarea
+          placeholder="Message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        />
+        <br />
+        <button type="submit">Send</button>
+      </form>
+    );
+  }
 }
