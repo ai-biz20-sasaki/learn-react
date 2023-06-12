@@ -1,26 +1,38 @@
-const person = {
-  name: 'Gregorio Y. Zara',
-  imageUrl: "https://i.imgur.com/7vQD0fPs.jpg",
-  theme: {
-    backgroundColor: 'black',
-    color: 'pink'
-  }
-};
+import { getImageUrl } from './utils02';
+
+function Avatar({ person, size }) {
+  let thumbnailSize = 's';
+  if (size > 90) {
+    thumbnailSize = 'b';
+  }  
+  return (
+    <img
+      className="avatar"
+      src={getImageUrl(person, thumbnailSize)}
+      alt={person.name}
+      width={size}
+      height={size}
+    />
+  );
+}
 
 export default function Challenge02() {
   return (
-    <div style={person.theme}>
-      <h1>{person.name}'s Todos</h1>
-      <img
-        className="avatar"
-        src={person.imageUrl}
-        alt="Gregorio Y. Zara"
+    <>
+      <Avatar
+        size={40}
+        person={{ 
+          name: 'Gregorio Y. Zara', 
+          imageId: '7vQD0fP'
+        }}
       />
-      <ul>
-        <li>Improve the videophone</li>
-        <li>Prepare aeronautics lectures</li>
-        <li>Work on the alcohol-fuelled engine</li>
-      </ul>
-    </div>
+      <Avatar
+        size={120}
+        person={{ 
+          name: 'Gregorio Y. Zara', 
+          imageId: '7vQD0fP'
+        }}
+      />
+    </>
   );
 }
