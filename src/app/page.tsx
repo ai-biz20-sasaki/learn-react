@@ -30,7 +30,11 @@ export default function Home() {
         </li>
         <li>Conditional Rendering|条件付きレンダリング</li>
         <li>Rendering Lists|レンダリングリスト</li>
-        <li>Keeping Components Pure|コンポーネントを純粋に保つ</li>
+        <li>
+          <Link href="/describing-the-ui/keeping-components-pure">
+            Keeping Components Pure|コンポーネントを純粋に保つ
+          </Link>
+        </li>
       </ul>
 
       <p>Adding Interactivity|インタラクティブ性の追加</p>
