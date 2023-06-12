@@ -39,7 +39,11 @@ export default function Home() {
 
       <p>Adding Interactivity|インタラクティブ性の追加</p>
       <ul>
-        <li>Responding to Events|イベントへの応答</li>
+        <li>
+          <Link href="/adding-interactivity/responding-to-events">
+            Responding to Events|イベントへの応答
+          </Link>
+        </li>
         <li>State: A Component's Memory|状態: コンポーネントのメモリ</li>
         <li>Render and Commit|レンダリングとコミット</li>
         <li>State as a Snapshot|スナップショットとしての状態</li>
