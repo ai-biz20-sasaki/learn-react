@@ -58,13 +58,41 @@ export default function Home() {
 
       <p>Managing State|状態の管理</p>
       <ul>
-        <li>Reacting to Input with State|状態による入力への反応</li>
-        <li>Choosing the State Structure|状態構造の選択</li>
-        <li>Sharing State Between Components|コンポーネント間での状態の共有</li>
-        <li>Preserving and Resetting State|状態の保存とリセット</li>
-        <li>Extracting State Logic into a Reducer|状態ロジックを Reducer に抽出する</li>
-        <li>Passing Data Deeply with Context|コンテキストに応じてデータを深く渡す</li>
-        <li>Scaling Up with Reducer and Context|Reducer と Context によるスケールアップ</li>
+        <li>
+          <Link href="/managing-state/reacting-to-input-with-state">
+            Reacting to Input with State|状態による入力への反応
+          </Link>
+        </li>
+        <li>
+          <Link href="/managing-state/reacting-to-input-with-state">
+            Choosing the State Structure|状態構造の選択
+          </Link>
+        </li>
+        <li>
+          <Link href="/managing-state/reacting-to-input-with-state">
+            Sharing State Between Components|コンポーネント間での状態の共有
+          </Link>
+        </li>
+        <li>
+          <Link href="/managing-state/reacting-to-input-with-state">
+            Preserving and Resetting State|状態の保存とリセット
+          </Link>
+        </li>
+        <li>
+          <Link href="/managing-state/reacting-to-input-with-state">
+            Extracting State Logic into a Reducer|状態ロジックを Reducer に抽出する
+          </Link>
+        </li>
+        <li>
+          <Link href="/managing-state/reacting-to-input-with-state">
+            Passing Data Deeply with Context|コンテキストに応じてデータを深く渡す
+          </Link>
+        </li>
+        <li>
+          <Link href="/managing-state/reacting-to-input-with-state">
+            Scaling Up with Reducer and Context|Reducer と Context によるスケールアップ
+          </Link>
+        </li>
       </ul>
 
       <p>Escape Hatches|避難ハッチ</p>
