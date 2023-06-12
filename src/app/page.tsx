@@ -23,7 +23,11 @@ export default function Home() {
             JavaScript in JSX with Curly Braces|中括弧を使用した JSX の JavaScript
           </Link>
         </li>
-        <li>Passing Props to a Component|プロパティをコンポーネントに渡す</li>
+        <li>
+          <Link href="/describing-the-ui/passing-props-to-a-component">
+            Passing Props to a Component|プロパティをコンポーネントに渡す
+          </Link>
+        </li>
         <li>Conditional Rendering|条件付きレンダリング</li>
         <li>Rendering Lists|レンダリングリスト</li>
         <li>Keeping Components Pure|コンポーネントを純粋に保つ</li>
