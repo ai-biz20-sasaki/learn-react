@@ -20,6 +20,8 @@ export default function Page() {
       </h2>
       <h3>Challenge01</h3>
       <Challenge01 />
+      <h3>Challenge02</h3>
+      <Challenge02 />
     </div>
   )
 }
