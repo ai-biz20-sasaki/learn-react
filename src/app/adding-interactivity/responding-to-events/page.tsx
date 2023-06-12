@@ -20,6 +20,9 @@ export default function Page() {
       <h3>Challenge01</h3>
       <Challenge01 />
       <h3>Challenge02</h3>
+      {/* 動かないのでコメントアウト
+      <Challenge02 />
+       */}
     </div>
   )
 }
