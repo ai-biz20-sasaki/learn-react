@@ -11,50 +11,50 @@ export default function Home() {
       </a>
       <p>に記載されているコードを実践してみる</p>
 
-      <p>Describing the UI</p>
+      <p>Describing the UI:UIの説明</p>
       <ul>
-        <li>Your First Component</li>
-        <li>Importing and Exporting Components</li>
-        <li>Writing Markup with JSX</li>
-        <li>JavaScript in JSX with Curly Braces</li>
-        <li>Passing Props to a Component</li>
-        <li>Conditional Rendering</li>
-        <li>Rendering Lists</li>
-        <li>Keeping Components Pure</li>
+        <li>Your First Component|最初のコンポーネント</li>
+        <li>Importing and Exporting Components|コンポーネントのインポートとエクスポート</li>
+        <li>Writing Markup with JSX|JSXでマークアップを書く</li>
+        <li>JavaScript in JSX with Curly Braces|中括弧を使用した JSX の JavaScript</li>
+        <li>Passing Props to a Component|プロパティをコンポーネントに渡す</li>
+        <li>Conditional Rendering|条件付きレンダリング</li>
+        <li>Rendering Lists|レンダリングリスト</li>
+        <li>Keeping Components Pure|コンポーネントを純粋に保つ</li>
       </ul>
 
-      <p>Adding Interactivity</p>
+      <p>Adding Interactivity|インタラクティブ性の追加</p>
       <ul>
-        <li>Responding to Events</li>
-        <li>State: A Component's Memory</li>
-        <li>Render and Commit</li>
-        <li>State as a Snapshot</li>
-        <li>Queueing a Series of State Updates</li>
-        <li>Updating Objects in State</li>
-        <li>Updating Arrays in State</li>
+        <li>Responding to Events|イベントへの応答</li>
+        <li>State: A Component's Memory|状態: コンポーネントのメモリ</li>
+        <li>Render and Commit|レンダリングとコミット</li>
+        <li>State as a Snapshot|スナップショットとしての状態</li>
+        <li>Queueing a Series of State Updates|一連の状態更新をキューに入れる</li>
+        <li>Updating Objects in State|状態内のオブジェクトの更新</li>
+        <li>Updating Arrays in State|状態の配列を更新する</li>
       </ul>
 
-      <p>Managing State</p>
+      <p>Managing State|状態の管理</p>
       <ul>
-        <li>Reacting to Input with State</li>
-        <li>Choosing the State Structure</li>
-        <li>Sharing State Between Components</li>
-        <li>Preserving and Resetting State</li>
-        <li>Extracting State Logic into a Reducer</li>
-        <li>Passing Data Deeply with Context</li>
-        <li>Scaling Up with Reducer and Context</li>
+        <li>Reacting to Input with State|状態による入力への反応</li>
+        <li>Choosing the State Structure|状態構造の選択</li>
+        <li>Sharing State Between Components|コンポーネント間での状態の共有</li>
+        <li>Preserving and Resetting State|状態の保存とリセット</li>
+        <li>Extracting State Logic into a Reducer|状態ロジックを Reducer に抽出する</li>
+        <li>Passing Data Deeply with Context|コンテキストに応じてデータを深く渡す</li>
+        <li>Scaling Up with Reducer and Context|Reducer と Context によるスケールアップ</li>
       </ul>
 
-      <p>Escape Hatches</p>
+      <p>Escape Hatches|避難ハッチ</p>
       <ul>
-        <li>Referencing Values with Refs</li>
-        <li>Manipulating the DOM with Refs</li>
-        <li>Synchronizing with Effects</li>
-        <li>You Might Not Need an Effect</li>
-        <li>Lifecycle of Reactive Effects</li>
-        <li>Separating Events from Effects</li>
-        <li>Removing Effect Dependencies</li>
-        <li>Reusing Logic with Custom Hooks</li>
+        <li>Referencing Values with Refs|Ref を使用した値の参照</li>
+        <li>Manipulating the DOM with Refs|Ref を使用した DOM の操作</li>
+        <li>Synchronizing with Effects|エフェクトとの同期</li>
+        <li>You Might Not Need an Effect|エフェクトは必要ないかもしれません</li>
+        <li>Lifecycle of Reactive Effects|リアクティブ効果のライフサイクル</li>
+        <li>Separating Events from Effects|イベントとエフェクトを分離する</li>
+        <li>Removing Effect Dependencies|エフェクトの依存関係の削除</li>
+        <li>Reusing Logic with Custom Hooks|カスタムフックを使用したロジックの再利用</li>
       </ul>
 
     </div>
