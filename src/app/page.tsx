@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <div className="">
@@ -16,7 +18,11 @@ export default function Home() {
         <li>Your First Component|最初のコンポーネント</li>
         <li>Importing and Exporting Components|コンポーネントのインポートとエクスポート</li>
         <li>Writing Markup with JSX|JSXでマークアップを書く</li>
-        <li>JavaScript in JSX with Curly Braces|中括弧を使用した JSX の JavaScript</li>
+        <li>
+          <Link href="/describing-the-ui/js-in-jsx-with-curly-braces">
+            JavaScript in JSX with Curly Braces|中括弧を使用した JSX の JavaScript
+          </Link>
+        </li>
         <li>Passing Props to a Component|プロパティをコンポーネントに渡す</li>
         <li>Conditional Rendering|条件付きレンダリング</li>
         <li>Rendering Lists|レンダリングリスト</li>
