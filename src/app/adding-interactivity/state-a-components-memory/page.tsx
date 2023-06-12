@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Challenge01 from './challenge01'
 import Challenge02 from './challenge02'
 import Challenge03 from './challenge03'
+import Challenge04 from './challenge04'
 
 export default function Page() {
   return (
@@ -24,6 +25,8 @@ export default function Page() {
       <Challenge02 />
       <h3>Challenge03</h3>
       <Challenge03 />
+      <h3>Challenge04</h3>
+      <Challenge04 />
     </div>
   )
 }
