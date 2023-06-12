@@ -44,7 +44,11 @@ export default function Home() {
             Responding to Events|イベントへの応答
           </Link>
         </li>
-        <li>State: A Component's Memory|状態: コンポーネントのメモリ</li>
+        <li>
+          <Link href="/adding-interactivity/state-a-components-memory">
+            State: A Component's Memory|状態: コンポーネントのメモリ
+          </Link>
+        </li>
         <li>Render and Commit|レンダリングとコミット</li>
         <li>State as a Snapshot|スナップショットとしての状態</li>
         <li>Queueing a Series of State Updates|一連の状態更新をキューに入れる</li>
