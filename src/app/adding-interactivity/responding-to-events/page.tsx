@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import Challenge01 from './challenge01'
 import Challenge02 from './challenge02'
+import Challenge03 from './challenge03'
 
 export default function Page() {
   return (
@@ -23,6 +24,8 @@ export default function Page() {
       {/* 動かないのでコメントアウト
       <Challenge02 />
        */}
+      <h3>Challenge03</h3>  {/* //https://react.dev/learn/responding-to-events#stopping-propagation */}
+      <Challenge03 />
     </div>
   )
 }
