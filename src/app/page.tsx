@@ -65,7 +65,11 @@ export default function Home() {
             Updating Objects in State|状態内のオブジェクトの更新
           </Link>
         </li>
-        <li>Updating Arrays in State|状態内の配列を更新する</li>
+        <li>
+          <Link href="/adding-interactivity/updating-arrays-in-state">
+            Updating Arrays in State|状態内の配列を更新する
+          </Link>
+        </li>
       </ul>
 
       <p>Managing State|状態の管理</p>
