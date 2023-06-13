@@ -50,7 +50,11 @@ export default function Home() {
           </Link>
         </li>
         <li>Render and Commit|レンダリングとコミット</li>
-        <li>State as a Snapshot|スナップショットとしての状態</li>
+        <li>
+          <Link href="/adding-interactivity/state-as-a-snapshot">
+            State as a Snapshot|スナップショットとしての状態
+          </Link>
+        </li>
         <li>Queueing a Series of State Updates|一連の状態更新をキューに入れる</li>
         <li>Updating Objects in State|状態内のオブジェクトの更新</li>
         <li>Updating Arrays in State|状態の配列を更新する</li>
