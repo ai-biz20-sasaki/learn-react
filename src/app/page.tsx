@@ -55,7 +55,11 @@ export default function Home() {
             State as a Snapshot|スナップショットとしての状態
           </Link>
         </li>
-        <li>Queueing a Series of State Updates|一連の状態更新をキューに入れる</li>
+        <li>
+          <Link href="/adding-interactivity/queueing-a-series-of-state-updates">
+            Queueing a Series of State Updates|一連の状態更新をキューに入れる
+          </Link>
+        </li>
         <li>Updating Objects in State|状態内のオブジェクトの更新</li>
         <li>Updating Arrays in State|状態の配列を更新する</li>
       </ul>
