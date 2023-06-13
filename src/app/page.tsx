@@ -60,7 +60,11 @@ export default function Home() {
             Queueing a Series of State Updates|一連の状態更新をキューに入れる
           </Link>
         </li>
-        <li>Updating Objects in State|状態内のオブジェクトの更新</li>
+        <li>
+          <Link href="/adding-interactivity/updating-objects-in-state">
+            Updating Objects in State|状態内のオブジェクトの更新
+          </Link>
+        </li>
         <li>Updating Arrays in State|状態内の配列を更新する</li>
       </ul>
 
