@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import Example01 from './example01'
 import Example0201 from './example0201'
+import Example0202 from './example0202'
 //import Example03 from './example03'
 //import Example04 from './example04'
 //import Example05 from './example05'
@@ -27,6 +28,8 @@ export default function Page() {
       <Example01 />
       <h3>Example0201</h3>
       <Example0201 />
+      <h3>Example0202</h3>
+      <Example0202 />
       <h2>
         <a
           className=""
