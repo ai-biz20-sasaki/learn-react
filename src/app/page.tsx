@@ -74,7 +74,7 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/managing-state/reacting-to-input-with-state">
+          <Link href="/managing-state/preserving-and-resetting-state">
             Preserving and Resetting State|状態の保存とリセット
           </Link>
         </li>
