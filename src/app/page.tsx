@@ -69,7 +69,7 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/managing-state/reacting-to-input-with-state">
+          <Link href="/managing-state/sharing-state-between-components">
             Sharing State Between Components|コンポーネント間での状態の共有
           </Link>
         </li>
