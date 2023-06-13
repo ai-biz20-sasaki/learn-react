@@ -9,6 +9,7 @@ import Example05 from './example05'
 import Example06 from './example06'
 import Example07 from './example07'
 import Example0701 from './example0701'
+import Example0702 from './example0702'
 //import Challenge01 from './challenge01'
 //import Challenge02 from './challenge02'
 //import Challenge03 from './challenge03'
@@ -42,6 +43,8 @@ export default function Page() {
       <Example07 />
       <h3>Example0701</h3>
       <Example0701 />
+      <h3>Example0702</h3>
+      <Example0702 />
       <h2>
         <a
           className=""
