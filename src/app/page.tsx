@@ -64,7 +64,7 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/managing-state/reacting-to-input-with-state">
+          <Link href="/managing-state/choosing-the-state-structure">
             Choosing the State Structure|状態構造の選択
           </Link>
         </li>
