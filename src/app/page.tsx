@@ -105,7 +105,7 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/managing-state/reacting-to-input-with-state">
+          <Link href="/managing-state/scaling-up-with-reducer-and-context">
             Scaling Up with Reducer and Context|Reducer と Context によるスケールアップ
           </Link>
         </li>
