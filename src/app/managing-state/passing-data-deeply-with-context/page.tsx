@@ -2,6 +2,7 @@
 //https://react.dev/learn/passing-data-deeply-with-context
 import Link from 'next/link'
 import Example0101 from './example0101'
+import Example0102 from './example0102'
 //import Example02 from './example02'
 //import Challenge01 from './challenge01'
 //import Challenge02 from './challenge02'
@@ -22,6 +23,8 @@ export default function Page() {
       </h2>
       <h3>Example0101</h3>
       <Example0101 />
+      <h3>Example0102</h3>
+      <Example0102 />
       <h2>
         <a
           className=""
