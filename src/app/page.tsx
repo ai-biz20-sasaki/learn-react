@@ -95,7 +95,7 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/managing-state/reacting-to-input-with-state">
+          <Link href="/managing-state/extracting-state-logic-into-a-reducer">
             Extracting State Logic into a Reducer|状態ロジックを Reducer に抽出する
           </Link>
         </li>
