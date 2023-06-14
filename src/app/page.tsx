@@ -100,7 +100,7 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/managing-state/reacting-to-input-with-state">
+          <Link href="/managing-state/passing-data-deeply-with-context">
             Passing Data Deeply with Context|コンテキストに応じてデータを深く渡す
           </Link>
         </li>
