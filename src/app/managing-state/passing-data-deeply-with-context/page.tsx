@@ -5,6 +5,7 @@ import Example0101 from './example0101'
 import Example0102 from './example0102'
 import Example0201 from './example0201'
 import Example0202 from './example0202'
+import Example03 from './example03'
 //import Example02 from './example02'
 //import Challenge01 from './challenge01'
 //import Challenge02 from './challenge02'
@@ -31,6 +32,8 @@ export default function Page() {
       <Example0201 />
       <h3>Example0202</h3>
       <Example0202 />
+      <h3>Example03</h3>
+      <Example03 />
       <h2>
         <a
           className=""
