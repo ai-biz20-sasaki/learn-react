@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="">
+    <>
       <a
         className=""
         href="https://react.dev/learn/describing-the-ui"
@@ -123,6 +123,6 @@ export default function Home() {
         <li>Reusing Logic with Custom Hooks|カスタムフックを使用したロジックの再利用</li>
       </ul>
 
-    </div>
+    </>
   )
 }
