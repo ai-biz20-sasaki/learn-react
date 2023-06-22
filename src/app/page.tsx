@@ -121,7 +121,11 @@ export default function Home() {
             Referencing Values with Refs|Ref を使用した値の参照
           </Link>
         </li>
-        <li>Manipulating the DOM with Refs|Ref を使用した DOM の操作</li>
+        <li>
+          <Link href="/04-escape-hatches/02-manipulating-the-dom-with-refs">
+            Manipulating the DOM with Refs|Ref を使用した DOM の操作
+          </Link>
+        </li>
         <li>Synchronizing with Effects|エフェクトとの同期</li>
         <li>You Might Not Need an Effect|エフェクトは必要ないかもしれません</li>
         <li>Lifecycle of Reactive Effects|リアクティブ効果のライフサイクル</li>
