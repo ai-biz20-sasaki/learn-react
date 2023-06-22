@@ -1,7 +1,7 @@
 "use client"
 import { forwardRef, useRef } from 'react';
 
-const MyInput = forwardRef((props, ref) => {
+const MyInput = forwardRef(function MyInput(props, ref) {
   return <input {...props} ref={ref} />;
 });
 

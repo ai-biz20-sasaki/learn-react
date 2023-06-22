@@ -33,7 +33,7 @@ export default function Menu() {
 
   return (
     <>
-      <h2>What's your travel snack?</h2>
+      <h2>What&apos;s your travel snack?</h2>
       <ul>
         {items.map((item, index) => (
           <li key={item.id}>

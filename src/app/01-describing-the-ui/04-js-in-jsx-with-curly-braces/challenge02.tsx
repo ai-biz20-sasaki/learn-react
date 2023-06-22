@@ -10,7 +10,7 @@ const person = {
 export default function Challenge02() {
   return (
     <div style={person.theme}>
-      <h1>{person.name}'s Todos</h1>
+      <h1>{person.name}&apos;s Todos</h1>
       <img
         className="avatar"
         src={person.imageUrl}

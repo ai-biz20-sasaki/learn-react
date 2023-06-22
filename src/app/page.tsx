@@ -47,7 +47,7 @@ export default function Home() {
         </li>
         <li>
           <Link href="/02-adding-interactivity/02-state-a-components-memory">
-            State: A Component's Memory|状態: コンポーネントのメモリ
+            State: A Component&apos;s Memory|状態: コンポーネントのメモリ
           </Link>
         </li>
         <li>Render and Commit|レンダリングとコミット</li>
