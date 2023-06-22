@@ -126,7 +126,11 @@ export default function Home() {
             Manipulating the DOM with Refs|Ref を使用した DOM の操作
           </Link>
         </li>
-        <li>Synchronizing with Effects|エフェクトとの同期</li>
+        <li>
+          <Link href="/04-escape-hatches/03-synchronizing-with-effects">
+            Synchronizing with Effects|エフェクトとの同期
+          </Link>
+        </li>
         <li>You Might Not Need an Effect|エフェクトは必要ないかもしれません</li>
         <li>Lifecycle of Reactive Effects|リアクティブ効果のライフサイクル</li>
         <li>Separating Events from Effects|イベントとエフェクトを分離する</li>
