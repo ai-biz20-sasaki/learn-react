@@ -11,25 +11,25 @@ export default function Form() {
     }
   });
 
-  function handleNameChange(e) {
+  function handleNameChange(e: React.ChangeEvent<HTMLInputElement>) {
     updatePerson(draft => {
       draft.name = e.target.value;
     });
   }
 
-  function handleTitleChange(e) {
+  function handleTitleChange(e: React.ChangeEvent<HTMLInputElement>) {
     updatePerson(draft => {
       draft.artwork.title = e.target.value;
     });
   }
 
-  function handleCityChange(e) {
+  function handleCityChange(e: React.ChangeEvent<HTMLInputElement>) {
     updatePerson(draft => {
       draft.artwork.city = e.target.value;
     });
   }
 
-  function handleImageChange(e) {
+  function handleImageChange(e: React.ChangeEvent<HTMLInputElement>) {
     updatePerson(draft => {
       draft.artwork.image = e.target.value;
     });

@@ -5,7 +5,7 @@ let nextId = 0;
 
 export default function List() {
   const [name, setName] = useState('');
-  const [artists, setArtists] = useState([]);
+  const [artists, setArtists] = useState<{ id: number; name: string; }[]>([]);
 
   return (
     <>
@@ -15,7 +15,7 @@ export default function List() {
         onChange={e => setName(e.target.value)}
       />
       <button onClick={() => {
-        artists.push({  //これは正しく動かない
+        artists.push({
           id: nextId++,
           name: name,
         });

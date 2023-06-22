@@ -1,5 +1,11 @@
 "use client"
-function Button({ onClick, children }) {
+
+type ButtonProps = {
+  onClick: () => void;
+  children: React.ReactNode;
+};
+
+function Button({ onClick, children }: ButtonProps) {
   return (
     <button onClick={(e) => {
       {console.log(e)}

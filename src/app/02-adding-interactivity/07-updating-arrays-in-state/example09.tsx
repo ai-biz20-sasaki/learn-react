@@ -17,21 +17,25 @@ export default function BucketList() {
     initialList
   );
 
-  function handleToggleMyList(id, nextSeen) {
+  function handleToggleMyList(id: number, nextSeen: boolean) {
     updateMyList(draft => {
       const artwork = draft.find(a =>
         a.id === id
       );
-      artwork.seen = nextSeen;
+      if (artwork) {
+        artwork.seen = nextSeen;
+      }
     });
   }
 
-  function handleToggleYourList(artworkId, nextSeen) {
+  function handleToggleYourList(artworkId: number, nextSeen: boolean) {
     updateYourList(draft => {
       const artwork = draft.find(a =>
         a.id === artworkId
       );
-      artwork.seen = nextSeen;
+      if (artwork) {
+        artwork.seen = nextSeen;
+      }
     });
   }
 
@@ -50,7 +54,10 @@ export default function BucketList() {
   );
 }
 
-function ItemList({ artworks, onToggle }) {
+function ItemList({ artworks, onToggle }: { 
+    artworks: Array<{ id: number, title: string, seen: boolean }>, 
+    onToggle: (id: number, nextSeen: boolean) => void 
+  }) {
   return (
     <ul>
       {artworks.map(artwork => (

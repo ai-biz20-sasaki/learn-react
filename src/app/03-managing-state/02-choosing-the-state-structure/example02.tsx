@@ -7,7 +7,7 @@ export default function FeedbackForm() {
   //const [isSending, setIsSending] = useState(false);  //Not so good.
   //const [isSent, setIsSent] = useState(false);  //Not so good.
 
-  async function handleSubmit(e) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus('sending');
     //setIsSending(true); //Not so good.
@@ -45,7 +45,7 @@ export default function FeedbackForm() {
 }
 
 // Pretend to send a message.
-function sendMessage(text) {
+function sendMessage(text: string) {
   return new Promise(resolve => {
     setTimeout(resolve, 2000);
   });

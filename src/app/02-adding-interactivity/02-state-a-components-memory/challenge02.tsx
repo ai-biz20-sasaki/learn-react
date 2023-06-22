@@ -1,15 +1,15 @@
 "use client"
-import { useState } from 'react';
+import { useState, ChangeEvent } from 'react';
 
 export default function Form() {
   const [ firstName, setFirstName ] = useState('')
   const [ lastName, setLastName ] = useState('')
 
-  function handleFirstNameChange(e) {
+  function handleFirstNameChange(e: ChangeEvent<HTMLInputElement>) {
     setFirstName(e.target.value)
   }
 
-  function handleLastNameChange(e) {
+  function handleLastNameChange(e: ChangeEvent<HTMLInputElement>) {
     setLastName(e.target.value)
   }
 

@@ -14,7 +14,7 @@ export default function BucketList() {
     initialList
   );
 
-  function handleToggleMyList(artworkId, nextSeen) {
+  function handleToggleMyList(artworkId: number, nextSeen: boolean) {
     setMyList(myList.map(artwork => {
       if (artwork.id === artworkId) {
         // Create a *new* object with changes
@@ -26,7 +26,7 @@ export default function BucketList() {
     }));
   }
 
-  function handleToggleYourList(artworkId, nextSeen) {
+  function handleToggleYourList(artworkId: number, nextSeen: boolean) {
     setYourList(yourList.map(artwork => {
       if (artwork.id === artworkId) {
         // Create a *new* object with changes
@@ -53,7 +53,10 @@ export default function BucketList() {
   );
 }
 
-function ItemList({ artworks, onToggle }) {
+function ItemList({ artworks, onToggle }: {
+  artworks: { id: number; title: string; seen: boolean }[];
+  onToggle: (artworkId: number, nextSeen: boolean) => void;  
+}) {
   return (
     <ul>
       {artworks.map(artwork => (

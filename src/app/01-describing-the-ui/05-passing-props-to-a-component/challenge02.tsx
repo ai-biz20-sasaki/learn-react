@@ -1,6 +1,15 @@
 import { getImageUrl } from './utils02';
 
-function Avatar({ person, size }) {
+type AvatarProps = {
+  person: {
+    name: string;
+    imageId: string;
+  };
+  size: number;  
+}
+
+function Avatar(props: AvatarProps) {
+  const {person, size} = props
   let thumbnailSize = 's';
   if (size > 90) {
     thumbnailSize = 'b';

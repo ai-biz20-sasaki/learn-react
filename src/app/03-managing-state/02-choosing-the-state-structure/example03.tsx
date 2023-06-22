@@ -1,5 +1,5 @@
 "use client"
-import { useState } from 'react';
+import { useState, ChangeEvent } from 'react';
 
 export default function Form() {
   const [firstName, setFirstName] = useState('');
@@ -8,12 +8,12 @@ export default function Form() {
 
   const fullName = firstName + ' ' + lastName;
 
-  function handleFirstNameChange(e) {
+  function handleFirstNameChange(e: ChangeEvent<HTMLInputElement>) {
     setFirstName(e.target.value);
     //setFullName(e.target.value + ' ' + lastName); //これは冗長
   }
 
-  function handleLastNameChange(e) {
+  function handleLastNameChange(e: ChangeEvent<HTMLInputElement>) {
     setLastName(e.target.value);
     //setFullName(firstName + ' ' + e.target.value);  //これは冗長
   }

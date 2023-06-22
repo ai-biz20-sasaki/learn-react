@@ -8,21 +8,21 @@ export default function Form() {
     email: 'bhepworth@sculpture.com'
   });
 
-  function handleFirstNameChange(e) {
+  function handleFirstNameChange(e: React.ChangeEvent<HTMLInputElement>) {
     setPerson({
       ...person,  //スプレッド構文で既存のプロパティをコピー ただし、1レベルの深さまでしかコピーされません。
       firstName: e.target.value //そしてこのプロパティを上書きする
     });
   }
 
-  function handleLastNameChange(e) {
+  function handleLastNameChange(e: React.ChangeEvent<HTMLInputElement>) {
     setPerson({
       ...person,
       lastName: e.target.value
     });
   }
 
-  function handleEmailChange(e) {
+  function handleEmailChange(e: React.ChangeEvent<HTMLInputElement>) {
     setPerson({
       ...person,
       email: e.target.value

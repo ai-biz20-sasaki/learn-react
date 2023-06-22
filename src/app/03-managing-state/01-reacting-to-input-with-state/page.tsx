@@ -1,7 +1,7 @@
 //https://react.dev/learn/reacting-to-input-with-state#challenges
 //https://react.dev/learn/reacting-to-input-with-state
 import Link from 'next/link'
-import Example01 from './example01'
+//import Example01 from './example01'
 //import Challenge01 from './challenge01'
 //import Challenge02 from './challenge02'
 //import Challenge03 from './challenge03'
@@ -19,8 +19,6 @@ export default function Page() {
           例
         </a>
       </h2>
-      <h3>Example01</h3>
-      <Example01 />
       <h2>
         <a
           className=""
