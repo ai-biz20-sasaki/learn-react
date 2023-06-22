@@ -116,7 +116,11 @@ export default function Home() {
       <div className="m-2"/>
       <h2 className="text-xl">Escape Hatches|避難ハッチ</h2>
       <ul className="ml-3">
-        <li>Referencing Values with Refs|Ref を使用した値の参照</li>
+        <li>
+          <Link href="/04-escape-hatches/01-referencing-values-with-refs">
+            Referencing Values with Refs|Ref を使用した値の参照
+          </Link>
+        </li>
         <li>Manipulating the DOM with Refs|Ref を使用した DOM の操作</li>
         <li>Synchronizing with Effects|エフェクトとの同期</li>
         <li>You Might Not Need an Effect|エフェクトは必要ないかもしれません</li>
