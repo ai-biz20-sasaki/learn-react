@@ -12,9 +12,9 @@ export default function Home() {
         React公式 Learn React
       </a>
       <p>に記載されているコードを実践してみる</p>
-
-      <p>Describing the UI:UIの説明</p>
-      <ul>
+      <div className="m-2"/>
+      <h2 className="text-xl">Describing the UI:UIの説明</h2>
+      <ul className="ml-3">
         <li>Your First Component|最初のコンポーネント</li>
         <li>Importing and Exporting Components|コンポーネントのインポートとエクスポート</li>
         <li>Writing Markup with JSX|JSXでマークアップを書く</li>
@@ -37,8 +37,9 @@ export default function Home() {
         </li>
       </ul>
 
-      <p>Adding Interactivity|インタラクティブ性の追加</p>
-      <ul>
+      <div className="m-2"/>
+      <h2 className="text-xl">Adding Interactivity|インタラクティブ性の追加</h2>
+      <ul className="ml-3">
         <li>
           <Link href="/02-adding-interactivity/01-responding-to-events">
             Responding to Events|イベントへの応答
@@ -72,8 +73,9 @@ export default function Home() {
         </li>
       </ul>
 
-      <p>Managing State|状態の管理</p>
-      <ul>
+      <div className="m-2"/>
+      <h2 className="text-xl">Managing State|状態の管理</h2>
+      <ul className="ml-3">
         <li>
           <Link href="/03-managing-state/01-reacting-to-input-with-state">
             Reacting to Input with State|状態による入力への反応
@@ -111,8 +113,9 @@ export default function Home() {
         </li>
       </ul>
 
-      <p>Escape Hatches|避難ハッチ</p>
-      <ul>
+      <div className="m-2"/>
+      <h2 className="text-xl">Escape Hatches|避難ハッチ</h2>
+      <ul className="ml-3">
         <li>Referencing Values with Refs|Ref を使用した値の参照</li>
         <li>Manipulating the DOM with Refs|Ref を使用した DOM の操作</li>
         <li>Synchronizing with Effects|エフェクトとの同期</li>
